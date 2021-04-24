@@ -1,3 +1,10 @@
+.swiper
+  &-container
+    width: 100%
+    min-height: 570px
+    padding-bottom: 145px
+  &-wrapper
+    margin-bottom: 100px
 .curate
   &-container
     position: relative
@@ -14,6 +21,7 @@
     display: block
     width: 198px
     height: 56px
+    cursor: pointer
   &-subtitle
     margin-bottom: 20px
   &-title
@@ -21,10 +29,12 @@
     font-weight: 700
     font-size: 40px
     line-height: 50px
-  &-wrapper
-    position: relative
 .slide
+  &-card
+    width: 430px
+    min-height: 570px
   &-img
+    position: relative
     width: 430px
     height: 430px
     overflow: hidden
@@ -37,20 +47,87 @@
     display: flex
     align-items: flex-start
     flex-direction: column
+    height: 140px
+    padding: 0 25px
   &-title
     font-weight: 600
     font-size: 36px
     line-height: 34px
-    color: background: #130F40
+    color: #130F40
     margin-right: 90px
-.stars
-  &-item
-    width: 20px
-    height: 20px
-    margin-right: 5px
+  &-info
+    display: flex
+    align-items: center
+  &-person
+    margin-right: 30px
+  &-icon
+    margin-right: 10px
+  &-count
+    color: #009D98
+  &-price
+    font-weight: 600
+    font-size: 24px
+    line-height: 26px
+    color: #009D98
+    margin-right: 30px
+  .stars
+    &-item
+      width: 20px
+      height: 20px
 .text
   &-top
     display: flex
     align-items: center
+    justify-content: space-between
+    margin-bottom: 10px
+  &-middle
+    color: #7A7A7A
+    margin-bottom: 20px
   &-bottom
-    flex-basis: 100%
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 100%
+.slider
+  &-button
+    position: absolute
+    margin-left: 20px
+    margin-top: 138px
+    bottom: 35px
+    left: 25px
+    font-weight: 600
+    color: #fff
+    background-color: #FFC107
+    border-radius: 4px 10px
+    width: 133px
+    height: 52px
+    border: none
+    cursor: pointer
+  &-buttons
+    position: absolute
+    width: 112px
+    display: flex
+    justify-content: space-between
+    bottom: 0
+    left: 50%
+    transform: translate(-50%, -50%)
+    &-prev
+      display: flex
+      align-items: center
+      justify-content: center
+      width: 45px
+      height: 45px
+      border-radius: 50%
+      background-color: #009D98
+      box-shadow: 0px 15px 25px rgba(0, 157, 152, 0.3)
+      cursor: pointer
+    &-next
+      display: flex
+      align-items: center
+      justify-content: center
+      width: 45px
+      height: 45px
+      border-radius: 50%
+      background-color: #009D98
+      box-shadow: 0px 15px 25px rgba(0, 157, 152, 0.3)
+      cursor: pointer

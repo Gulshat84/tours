@@ -7,6 +7,7 @@
   <title>Tours</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -32,18 +33,17 @@
   <!-- /.header -->
   <section class="main">
     <img src="img/bigcloud.svg" alt="big cloud" class="big-cloud">
-  <img src="img/middlecloud.svg" alt="middle cloud" class="middle-cloud">
-  <img src="img/smallcloud.svg" alt="small cloud" class="small-one">
-  <img src="img/smallcloud.svg" alt="small cloud" class="small-two">
-  <img src="img/smallcloud.svg" alt="small cloud" class="small-three">
-  <div class="container">
-    <h1 class="main-title">Explore The Great Place</h1>
-  </div>
-  <!-- /.container -->
-  <img src="img/people.svg" alt="people" class="main-people">
-  </section>
-  <section class="form-section">
-    <div class="form-container">
+    <img src="img/middlecloud.svg" alt="middle cloud" class="middle-cloud">
+    <img src="img/smallcloud.svg" alt="small cloud" class="small-one">
+    <img src="img/smallcloud.svg" alt="small cloud" class="small-two">
+    <img src="img/smallcloud.svg" alt="small cloud" class="small-three">
+    <div class="container">
+      <h1 class="main-title">Explore The Great Place</h1>
+    </div>
+    <!-- /.container -->
+    <img src="img/people.svg" alt="people" class="main-people">
+    <div class="form-section">
+      <div class="form-container">
       <form action="#" class="form">
         <select name="city" class="form-place" data-placeholder="Where to?">
           <option value="" selected disabled hidden>Where to?</option>
@@ -70,16 +70,17 @@
     </div>
     <!-- /.form-container -->
     <img src="img/points.svg" alt="dotted square" class="form-img">
+    </div>
+    <!-- /.form-section -->    
     
-  </section>
-  <!-- /.form-section -->
+  </section>  
   
   <section class="more">
     
       <div class="more-container">
-        <img src="img/small square.svg" alt="small square" class="more-square">
+        <img src="img/small-square.svg" alt="small square" class="more-square">
         <img src="img/ellipse.svg" alt="ellipse" class="more-ellipse">
-        <img src="img/yellow square.svg" alt="yellow square" class="more-yellow">
+        <img src="img/yellow-square.svg" alt="yellow square" class="more-yellow">
         <img src="img/continents.svg" alt="continents" class="more-continents">
         <div class="container">
         <div class="more-about">
@@ -94,31 +95,30 @@
           </div>
         </div>
         </div>
-        
-      
-        <div class="curate-container">
-        <img src="img/clouds.svg" alt="clouds" class="curate-clouds">
-        <div class="container">
-          <div class="curate-top">
-            <div class="curate-text">
-              <span class="curate-subtitle">Place & Cities Must Visit This Summer</span>
-              <h2 class="curate-title">Curated For You</h2>
-            </div>
-            <button class="button curate-button">More Cureted for You</button>
-          </div>          
-          
-        </div>
-        <!-- /.container -->
 
-        <!-- Slider main container -->
-        <div class="swiper-container">
-          <!-- Additional required wrapper -->
-          <div class="curate-wrapper">
-            <!-- Slides -->
-            <div class="curate-slide">
-              <div class="slide-card">
+        <div class="curate-container">
+          <img src="img/clouds.svg" alt="clouds" class="curate-clouds">
+          <div class="container">
+            <div class="curate-top">
+              <div class="curate-text">
+                <span class="curate-subtitle">Place & Cities Must Visit This Summer</span>
+                <h2 class="curate-title">Curated For You</h2>
+              </div>
+              <button class="button curate-button">More Cureted for You</button>
+            </div>        
+          </div>
+          <!-- /.container -->
+
+          <!-- Slider main container -->
+          <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="slide-card">
                 <div class="slide-img">
-                  <img src="img/slide1.png" alt="slide-image" class="slide-image">                  
+                  <img src="img/slide1.png" alt="slide-image" class="slide-image">
+                  <button class="slider-button">Book Now</button>                  
                 </div>
                 <div class="slide-text">
                   <div class="text-top">
@@ -158,29 +158,126 @@
                   <!-- /.text-bottom -->
                 </div>
                 <!-- /.slide-text -->
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-card">
+                <div class="slide-img">
+                  <img src="img/slide2.png" alt="slide-image" class="slide-image">
+                  <button class="slider-button">Book Now</button>                  
+                </div>
+                <div class="slide-text">
+                  <div class="text-top">
+                    <h3 class="slide-title">Zanzibar</h3>
+                    <div class="stars">
+                      <img src="img/star.svg" alt="Icon: star" class="stars stars-item">
+                      <img src="img/star.svg" alt="Icon: star" class="stars stars-item">
+                      <img src="img/star.svg" alt="Icon: star" class="stars stars-item">
+                      <img src="img/star.svg" alt="Icon: star" class="stars stars-item">
+                      <img src="img/star.svg" alt="Icon: star" class="stars stars-item">
+                    </div>
+                    <!-- /.stars -->
+                  </div>
+                  <div class="text-middle">
+                    <span>Europe, Greece</span>
+                  </div>
+                  <!-- /.text-middle -->
+                  <div class="text-bottom">
+                    <div class="slide-info">
+                      <div class="slide-person">
+                        <img src="img/person.svg" alt="Icon: person" class="slide-icon">
+                        <span class="slide-count">2</span>
+                      </div>
+                      <!-- /.slide-person -->
+                      <div class="slide-day">
+                        <img src="img/day.svg" alt="Icon: day" class="slide-icon">
+                        <span class="slide-count">7 Days</span>
+                      </div>
+                      <!-- /.slide-day -->
+                    </div>
+                    <!-- /.slide-info -->
+                    <div class="slide-price">
+                      <span>$2,550</span>
+                    </div>
+                    <!-- /.slide-price -->
+                  </div>
+                  <!-- /.text-bottom -->
+                </div>
+                <!-- /.slide-text -->
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-card">
+                <div class="slide-img">
+                  <img src="img/slide3.png" alt="slide-image" class="slide-image">
+                  <button class="slider-button">Book Now</button>                  
+                </div>
+                <div class="slide-text">
+                  <div class="text-top">
+                    <h3 class="slide-title">Zanzibar</h3>
+                    <div class="stars">
+                      <img src="img/star.svg" alt="Icon: star" class="stars stars-item">
+                      <img src="img/star.svg" alt="Icon: star" class="stars stars-item">
+                      <img src="img/star.svg" alt="Icon: star" class="stars stars-item">
+                      <img src="img/star.svg" alt="Icon: star" class="stars stars-item">
+                      <img src="img/star.svg" alt="Icon: star" class="stars stars-item">
+                    </div>
+                    <!-- /.stars -->
+                  </div>
+                  <div class="text-middle">
+                    <span>Europe, Greece</span>
+                  </div>
+                  <!-- /.text-middle -->
+                  <div class="text-bottom">
+                    <div class="slide-info">
+                      <div class="slide-person">
+                        <img src="img/person.svg" alt="Icon: person" class="slide-icon">
+                        <span class="slide-count">2</span>
+                      </div>
+                      <!-- /.slide-person -->
+                      <div class="slide-day">
+                        <img src="img/day.svg" alt="Icon: day" class="slide-icon">
+                        <span class="slide-count">7 Days</span>
+                      </div>
+                      <!-- /.slide-day -->
+                    </div>
+                    <!-- /.slide-info -->
+                    <div class="slide-price">
+                      <span>$2,550</span>
+                    </div>
+                    <!-- /.slide-price -->
+                  </div>
+                  <!-- /.text-bottom -->
+                </div>
+                <!-- /.slide-text -->
+                </div>
+              </div>
+              
+            </div>
+            <!-- swiper-wrapper -->
+  
+
+            <!-- If we need navigation buttons -->
+            <div class="slider-buttons">
+              <div class="slider-buttons-prev">
+                <img src="img/arrow-prev.svg" alt="Icon: prev" class="arrow">
+              </div>
+              <div class="slider-buttons-next">
+                <img src="img/arrow-next.svg" alt="Icon: next" class="arrow">
               </div>
             </div>
-            <div class="curate-slide">Slide 2</div>
-            <div class="curate-slide">Slide 3</div>
-            <div class="curate-slide">Slide 3</div>    
+            <!-- slider-buttons         -->
           </div>
-          
-          <button class="slider-button">Book Now</button>
-
-          <!-- If we need navigation buttons -->
-          <div class="curate-button-prev"></div>
-          <div class="curate-button-next"></div>
-  
-        </div>
-        
+          <!-- swiper-container -->
         </div>
         <!-- curate-container -->
       </div>
       <!-- /.more-container -->
     
   </section>
-  <!-- /.more -->
-    
-  
+  <!-- /.more --> 
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
