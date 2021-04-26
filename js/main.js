@@ -24,3 +24,20 @@ const swiper = new Swiper('.swiper-container', {
   },
 
 });
+
+const secondSwiper = new Swiper('.deals-slider', {
+  loop: true,
+  slidesPerView: 4,  
+  spaceBetween: 30,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.deals-button-next',
+    prevEl: '.deals-button-prev',
+  },
+
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
+});
