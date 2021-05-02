@@ -11,7 +11,7 @@
   },
 });
 */
-const swiper = new Swiper('.swiper-container', {
+const swiper = new Swiper('.curate-slider', {
   // Optional parameters
   loop: true,
   slidesPerView: 3,
